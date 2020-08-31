@@ -52,10 +52,8 @@ def createRandomArray():
 # function to call and execute other functions
 def main():
     taskNum, activities = createRandomArray()
-
     print ("Number of Activities =", taskNum)     # prints the number of tasks
     print ("Activities Array:", activities) # prints the entire activities array
-
     activity_selection(taskNum, activities) # executes the activity selection algorithm and prints out the answers
 
 # beginning of the program to call main and start execution
